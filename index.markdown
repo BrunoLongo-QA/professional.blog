@@ -4,3 +4,11 @@
 
 layout: home
 ---
+
+<h1>Welcome!</h1>
+
+<h3>Here you will find all my posts/articles in EN.</h3>
+
+<h3>Para acessar meus artigos em portugues brasileiro <a href="./br-articles/">click aqui</a></h3>
+
+<h3>Per accedere ai miei articoli in italiano <a href="" target="_blank">clicca qui</a></h3>
