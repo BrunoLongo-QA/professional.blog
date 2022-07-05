@@ -11,4 +11,4 @@ layout: home
 
 <h3>Para acessar meus artigos em portugues brasileiro <a href="./br-articles/">click aqui</a></h3>
 
-<h3>Per accedere ai miei articoli in italiano <a href="" target="_blank">clicca qui</a></h3>
+<h3>Per accedere ai miei articoli in italiano <a href="./it-articles/" >clicca qui</a></h3>
