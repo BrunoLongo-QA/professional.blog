@@ -21,12 +21,22 @@
 title: Bruno Longo QA Engineer
 email: bruno.longo.ltda@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Bruno Longo professional blog page for QA Engineers!
+  Welcome to Bruno Longo professional blog for QA Engineers!
 baseurl: "/professional.blog" # the subpath of your site, e.g. /blog
 url: "https://brunolongo-qa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username:  BrunoLongo-QA
+
+# Fileds that Minima use this
+# Including Author to the sites and all posts
+author: Bruno Longo
 linkedin_username:  bruno-longo-qa
+
+# Fields that Minian don't use
+# Add Copyright to the pages
+copyright: Bruno Longo <bruno_pereira_longo@hotmail.com>
+# Add image as log
+title-logo: /images/logo.jpeg
 
 # Build settings
 # Removed to use a regular theme
