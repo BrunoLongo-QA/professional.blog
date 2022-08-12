@@ -4,11 +4,10 @@
 
 layout: home
 ---
-
-<h1>Welcome!</h1>
-
-<h3>Here you will find all my posts/articles in EN.</h3>
-
-<h3>Para acessar meus artigos em portugues brasileiro <a href="./br-articles/">click aqui</a></h3>
-
-<h3>Per accedere ai miei articoli in italiano <a href="" target="_blank">clicca qui</a></h3>
+<h1>Hello and welcome to my professional blog!</h1>
+<h4>
+<p>Here you will find all my posts/articles regarding Automation and QA Process in general. In this hub you will find all my professional articles in english.</p>
+<p>For other languages just check down below that you will find the hub for portuguese (BR) and italian.</p>
+<p>🇧🇷 Para acessar meus artigos em portugues brasileiro <a href="./br-articles/">click aqui</a></p>
+<p>🇮🇹 Per accedere ai miei articoli in italiano <a href="./it-articles/" >clicca qui</a></p>
+</h4>

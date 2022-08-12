@@ -6,7 +6,7 @@
     <!-- Original from the Minima Theme  -->
     <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
     <!-- Adding the Title Logo -->
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+    <a  align="middle" class="site-title" rel="author" href="{{ "/" | relative_url }}">
       {%- if site.title-logo -%}
         <img src="{{ site.title-logo | relative_url }}" alt="{{ site.title | escape }}">
       {%- else -%}
@@ -25,13 +25,25 @@
           </svg>
         </span>
       </label>
-
-      <div class="trigger">
+      <div class="trigger" align="right">
         {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.tags == categories -%}
+        {%- if my_page.category == categories -%}
         {%- if my_page.title -%}
         <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor -%}
+        <a href="../assets/docs/BrunoLongo-ENG.pdf" target="_blank">Resume</a>
+      </div>
+      <div class="trigger" align="right">
+        {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.category!=categories -%}
+        {%- if my_page.title -%}
+        <!-- Add flags for the languages -->
+        <a class="page-link" href="{{ my_page.url | relative_url }}"> {{ my_page.image }}</a>
+        <!-- <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.tag | escape }}</a> -->
         {%- endif -%}
         {%- endif -%}
         {%- endfor -%}

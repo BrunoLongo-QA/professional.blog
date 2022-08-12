@@ -21,7 +21,7 @@
 title: Bruno Longo QA Engineer
 email: bruno.longo.ltda@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Bruno Longo professional blog for QA Engineers!
+  Professional Articles for QA's in general!!
 baseurl: "/professional.blog" # the subpath of your site, e.g. /blog
 url: "https://brunolongo-qa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -36,7 +36,7 @@ linkedin_username:  bruno-longo-qa
 # Add Copyright to the pages
 copyright: Bruno Longo <bruno_pereira_longo@hotmail.com>
 # Add image as log
-title-logo: /images/logo.jpeg
+title-logo: /assets/images/logo.jpeg
 
 # Build settings
 # Removed to use a regular theme
